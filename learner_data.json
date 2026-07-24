@@ -1,8 +1,9 @@
 {
     "name": "Learner",
     "topic_scores": {
+        "Fundamentals": 0
     },
-    "mistake_history": { 
-
+    "mistake_history": {
+        "General Error": 10
     }
 }

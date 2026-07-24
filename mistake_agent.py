@@ -17,6 +17,7 @@ def classify_mistake(question, user_answer, correct_answer):
         response = ollama.chat(model='phi3', messages=[
              {'role': 'user', 'content': prompt}
         ])
+        
         return response['message']['content'].strip()
     except:
         return "General Error"
